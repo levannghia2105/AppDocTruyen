@@ -1,0 +1,50 @@
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgManga"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/txtChapManga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/imgManga"
+                android:layout_centerHorizontal="true"
+                android:background="#86000000"
+                android:text="Truyện Tranh"
+                android:gravity="center"
+                android:textColor="#ED0303"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/txtNameManga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên Truyện Tranh"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#f000"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+    </LinearLayout>
+
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    tools:context=".SelectChap">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imgNameManga"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+
+
+            />
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fadsfsa"
+            android:textColor="#E2000000"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vui lòng chọn tập bạn muốn đọc"
+        android:textColor="#E2000000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyChap"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+         />
+
+
+</LinearLayout>
